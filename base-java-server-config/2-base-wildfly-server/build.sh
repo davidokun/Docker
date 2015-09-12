@@ -1,0 +1,1 @@
+docker build -t davidokun/centos7-base-wildfly-server .
