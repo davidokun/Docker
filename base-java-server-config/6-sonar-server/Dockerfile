@@ -1,4 +1,4 @@
-FROM davidokun/centos7-base-java-server
+FROM david/centos7-base-java-8-server
 
 MAINTAINER David Cuellar, davidokun99@gmail.com
 

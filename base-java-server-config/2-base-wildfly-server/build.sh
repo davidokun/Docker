@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker build -t davidokun/centos7-base-wildfly-server .
+docker build -t david/centos7-base-wildfly-8-server .
