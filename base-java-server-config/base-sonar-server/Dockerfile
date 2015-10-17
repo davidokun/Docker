@@ -14,6 +14,6 @@ RUN rm sonarqube-${SONAR_VERSION}.zip
 RUN wget http://downloads.sonarsource.com/plugins/org/codehaus/sonar-plugins/sonar-cobertura-plugin/${COBERTURA_VERSION}/sonar-cobertura-plugin-${COBERTURA_VERSION}.jar
 RUN mv sonar-cobertura-plugin-${COBERTURA_VERSION}.jar /usr/local/sonar/sonarqube-${SONAR_VERSION}/extensions/plugins/
 
-CMD ["/usr/local/sonar/sonarqube-5.1.2/bin/linux-x86-64/sonar.sh","console"]
+
 
 
