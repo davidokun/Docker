@@ -2,11 +2,11 @@ FROM centos:7
 
 MAINTAINER David Cuellar, davidokun99@gmail.com
 
-ENV JAVA_VERSION=jdk1.8.0_60
-ENV JAVA_FILE_NAME=jdk-8u60-linux-x64.tar.gz
+ENV JAVA_VERSION=jdk1.8.0_121
+ENV JAVA_FILE_NAME=jdk-8u121-linux-x64.tar.gz
 ENV JAVA_URL=http://download.oracle.com/otn-pub/java/jdk/8u60-b27/${JAVA_FILE_NAME}
 ENV JAVA_HOME=/usr/local/${JAVA_VERSION}/
-ENV MAVEN_VERSION=3.3.3
+ENV MAVEN_VERSION=3.3.9
 
 RUN yum update -y
 RUN yum clean all
